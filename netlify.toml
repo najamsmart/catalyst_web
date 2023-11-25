@@ -1,5 +1,5 @@
 [[redirects]]
   from = "/*"
-  to = "http://your-netlify-app.netlify.app/:splat"
+  to = "http://656224c880d86d00086d1f4e--effulgent-melba-1c2b6c.netlify.app/:splat"
   status = 301
   force = true
