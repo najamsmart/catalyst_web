@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "http://52.20.99.59:8000/api/*"
-  to = "http://52.20.99.59:8000/api/:splat"
+  from = "/*"
+  to = "http://your-netlify-app.netlify.app/:splat"
   status = 301
   force = true
