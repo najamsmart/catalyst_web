@@ -1,4 +1,5 @@
-[[headers]]
-for = "/*"
-  [headers.values]
-  Content-Security-Policy = "upgrade-insecure-requests"
+[[redirects]]
+  from = "http://52.20.99.59:8000/api/*"
+  to = "https://52.20.99.59:8000/api/:splat"
+  status = 301
+  force = true
